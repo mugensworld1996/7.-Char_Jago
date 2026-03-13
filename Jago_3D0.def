@@ -1,0 +1,26 @@
+; Player information
+[Info]
+name ="Jago 3D Killer Instinct xbox1"
+displayname ="Jago 3D"
+versiondate =12,27,2007
+mugenversion =04,14,2002
+author ="dragon972"
+pal.defaults =1,2
+
+; Files for the player
+[Files]
+cmd     =Jago_KI2.cmd
+cns     =Jago_KI2.cns
+st      =Jago_KI2.cns
+stcommon =common1.cns
+sprite  =Jago_KI2.sff
+anim    =Jago_KI2.air
+sound   =Jago_KI2.snd
+pal1=jago.act
+pal2=jago2.act
+
+
+; Arcade mode
+[Arcade]
+intro.storyboard = 
+ending.storyboard = Ending_jago.def

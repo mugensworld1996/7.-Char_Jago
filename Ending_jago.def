@@ -1,0 +1,35 @@
+;=================================
+;Super Street Fighter IV M.U.G.E.N
+;=================================
+
+[Info]
+name = "akira's Ending"                   
+author = "dragon972" 
+
+[SceneDef]
+spr = Ending_jago.sff       
+
+[Scene 1]
+; Fade
+fadein.time = 100       ;Time to take for fading in
+fadein.col = 0,0,0     ;Use 255,255,255 for white-fade
+fadeout.time = 50
+fadeout.col = 0,0,0
+; Overlay Anims (from 0 to 9)
+layerall.pos = 0,30
+layer0.anim =  1		;Anim action number for slideshow pictures
+mask = 0
+end.time = 3850		;600 ticks = 10 seconds
+bgm = megamix_ending.mp3
+bgm.loop = 0
+
+[Begin Action 1]
+0,1, 0,0, 500
+0,2, 0,0, 500
+0,3, 0,0, 350
+0,4, 0,0, 500
+0,5, 0,0, 500
+0,6, 0,0, 500
+0,7, 0,0, 500
+0,8, 0,0, 500
+
