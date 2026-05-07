@@ -9,19 +9,19 @@ pal.defaults =1
 
 ; Files for the player
 [Files]
-cmd     =Jago_KI2.cmd
-cns     =Jago_KI2.cns
-st      =Jago_KI2.cns
+cmd=logic/Jago_KI2.cmd
+cns=logic/Jago_KI2.cns
+st =logic/Jago_KI2.cns
 stcommon =common1.cns
-sprite  =Jago_KI2.sff
-anim    =Jago_KI2.air
-sound   =Jago_KI2.snd
-pal1=jago.act
-pal2=jago.act
-pal3=jago.act
-pal4=jago.act
-pal5=jago.act
-pal6=jago.act
+sprite=assets/Jago_KI2.sff
+anim  =assets/Jago_KI2.air
+sound =assets/Jago_KI2.snd
+pal1=palette/jago.act
+pal2=palette/jago.act
+pal3=palette/jago.act
+pal4=palette/jago.act
+pal5=palette/jago.act
+pal6=palette/jago.act
   
 ; Arcade mode
 [Arcade]

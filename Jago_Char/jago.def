@@ -1,0 +1,19 @@
+[Info]
+name="jago"
+displayname="jago"
+versiondate=06/05/2026
+mugenversion=
+author="Mugens World"
+pal.defaults=1,
+[Files]
+sprite=jago.sff
+sound=
+anim=jago.air
+cmd=jago.cmd
+cns=jago.cns
+st=jago.cns
+stcommon=common1.cns
+pal1=jago.act
+[Arcade]
+intro.storyboard=
+ending.storyboard=
